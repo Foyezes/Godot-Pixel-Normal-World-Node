@@ -18,7 +18,7 @@ TANGENT, BINORMAL & NORMAL is transformed into world space using AxB(3x3) matrix
 		vec3 binormalWS = vec3((INV_VIEW_MATRIX * vec4(BINORMAL, 0.0)).xyz);
 		vec3 normalWS = vec3((INV_VIEW_MATRIX * vec4(NORMAL, 0.0)).xyz);
 
-A TBN matrix is constructed.
+A TBN matrix is constructed using world space TANGENT, BINORMAL & NORMAL.
 
     mat4 TBN = mat4(vec4(tangentWS, 0.0), vec4(binormalWS, 0.0), vec4(normalWS, 0.0), vec4(0.0, 0.0, 0.0, 1.0));
 
