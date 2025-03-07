@@ -12,7 +12,7 @@ The normal map is unpacked from 0,1 to -1,1 range.
 
     vec3 unpacked_normal = vec3(%s * 2.0 - 1.0);
 
-TANGENT, BINORMAL & NORMAL is transformed into world space using AxB(3x3) method.
+TANGENT, BINORMAL & NORMAL is transformed into world space using AxB(3x3) matrix.
 
     vec3 tangentWS = vec3((INV_VIEW_MATRIX * vec4(TANGENT, 0.0)).xyz);
 		vec3 binormalWS = vec3((INV_VIEW_MATRIX * vec4(BINORMAL, 0.0)).xyz);
