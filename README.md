@@ -3,7 +3,7 @@ This is an addon for Godot 4 that adds the `PixelNormalWorld` node to the visual
 
 |||
 | -----|-------|
-|![pixelnormalworld](https://github.com/user-attachments/assets/8bf3cdd6-1b21-44aa-8e72-6c43e1c7950f)|![worldspace](https://github.com/user-attachments/assets/4ebe7f5c-7dd7-4faa-a3ef-ba0c3ae71e06)|
+|![pixelnormalworld](https://github.com/user-attachments/assets/a51ccb89-5dd4-42f6-b06e-7016a1f081a6)|![worldspace](https://github.com/user-attachments/assets/4ebe7f5c-7dd7-4faa-a3ef-ba0c3ae71e06)|
 
 ![p ixelnormal](https://github.com/user-attachments/assets/f3f8992a-745e-4261-b3aa-7651d637b77a)
 
